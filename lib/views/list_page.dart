@@ -37,10 +37,11 @@ class ListPage extends StatelessWidget {
             );
           },
         ),
-        floatingActionButton: const FloatingActionButton(
-          onPressed: null,
-          tooltip: 'Increment',
-          child: Icon(Icons.add),
+        floatingActionButton: FloatingActionButton(
+          onPressed: () {
+            Navigator.pushNamed(context, '/edit');
+          },
+          child: const Icon(Icons.add),
         ),
       ),
     );

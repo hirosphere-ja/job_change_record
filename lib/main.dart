@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:job_change_record/utils/firebase_options.dart';
+import 'package:job_change_record/views/edit_page.dart';
 import 'package:job_change_record/views/list_page.dart';
 
 void main() async {
@@ -16,8 +17,12 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
-      home: ListPage(),
+    return MaterialApp(
+      debugShowCheckedModeBanner: false,
+      routes: {
+        '/': (context) => const ListPage(),
+        '/edit': (context) => const EditPage(),
+      },
     );
   }
 }
