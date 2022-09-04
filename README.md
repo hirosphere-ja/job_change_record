@@ -27,7 +27,8 @@
 ## 0.1.0（2022-09-04）
 開発開始
 ### Added
-- Firebaseを追加する
+- Firebaseを追加
+- Cloud Firestoreを追加
 ### Changed
 - README.mdを更新
 - 不要なコメントを削除

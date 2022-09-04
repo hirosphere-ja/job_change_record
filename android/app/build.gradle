@@ -50,7 +50,9 @@ android {
         applicationId "com.arafipro.job_change_record"
         // You can update the following values to match your application needs.
         // For more information, see: https://docs.flutter.dev/deployment/android#reviewing-the-build-configuration.
-        minSdkVersion flutter.minSdkVersion
+        minSdkVersion localProperties.getProperty('flutter.minSdkVersion')
+				// https://qiita.com/ken_sasaki2/items/17ac0cf9701ab0354d8a#%E3%82%A2%E3%83%97%E3%83%AA%E3%82%92%E3%83%93%E3%83%AB%E3%83%89%E3%81%99%E3%82%8B
+				// https://ao-system.net/note/224
         targetSdkVersion flutter.targetSdkVersion
         versionCode flutterVersionCode.toInteger()
         versionName flutterVersionName
