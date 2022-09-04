@@ -31,6 +31,6 @@
 - Cloud Firestoreを追加
 ### Changed
 - README.mdを更新
-- 不要なコメントを削除
+- コードを整理
 
 <!-- https://www.gitlab.jp/blog/2022/08/01/readme/ -->
