@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "275400634534",
+    "project_id": "jobchangerecord",
+    "storage_bucket": "jobchangerecord.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:275400634534:android:d40531106ebc7a1244c467",
+        "android_client_info": {
+          "package_name": "com.arafipro.job_change_record"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "275400634534-82ceftl8d1o993gtiqepopuqt59c07fb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCN5inRJwrFEIE0VAfubuAhyhuXkCsXGr0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "275400634534-82ceftl8d1o993gtiqepopuqt59c07fb.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "275400634534-9mbp8hi64utch2vm05gvo9b7a8vure1n.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.arafipro.jobChangeRecord"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

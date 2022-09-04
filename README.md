@@ -25,7 +25,11 @@
 ## 更新履歴
 
 ## 0.1.0（2022-09-04）
-- 開発開始
+開発開始
+### Added
+- Firebaseを追加する
+### Changed
 - README.mdを更新
+- 不要なコメントを削除
 
 <!-- https://www.gitlab.jp/blog/2022/08/01/readme/ -->
