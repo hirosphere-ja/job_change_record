@@ -4,7 +4,7 @@ import 'package:intl/intl.dart';
 
 class CompanyListPage extends StatelessWidget {
   CompanyListPage({super.key});
-  final Stream<QuerySnapshot> _usersStream =
+  final Stream<QuerySnapshot> _companiesStream =
       FirebaseFirestore.instance.collection('companies').snapshots();
 
   @override
@@ -15,7 +15,7 @@ class CompanyListPage extends StatelessWidget {
       ),
       body: Center(
         child: StreamBuilder<QuerySnapshot>(
-          stream: _usersStream,
+          stream: _companiesStream,
           builder:
               (BuildContext context, AsyncSnapshot<QuerySnapshot> snapshot) {
             if (snapshot.connectionState == ConnectionState.waiting) {
